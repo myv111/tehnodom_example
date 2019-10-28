@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Astro_Badges::astro_badges" title="Badges" translate="title"
+             module="Astro_Badges" sortOrder="500" resource="Astro_Badges::astro_badges"/>
+        <add id="Astro_Badges::listing" title="Badges" translate="title"
+             module="Astro_Badges" parent="Astro_Badges::astro_badges" sortOrder="20" resource="Astro_Badges::Astro" action="astro_badges/astro/index" />
+    </menu>
+</config>
